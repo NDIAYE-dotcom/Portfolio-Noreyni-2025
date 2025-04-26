@@ -1,0 +1,103 @@
+.services-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.services-card {
+    background-color: var(--container-color);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.services-img-wrapper {
+    border-radius: 1.5rem;
+    overflow: hidden;
+    display: block;
+}
+
+.services-img {
+    transition: transform 0.3s ease;
+}
+
+.services-card:hover .services-img {
+    transform: scale(1.2);
+}
+
+
+.services-title {
+    font-size: var(--large-font-size);
+    margin-block: 1.5rem 0.5rem;
+}
+
+.services-description {
+    font-size: var(--small-font-size);
+    line-height: 1.5;
+}
+.services-link{
+    color: var(--title-color);
+    display: inline-flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    transition: color 0.3s ease;
+    color: rgb(13, 156, 39);
+
+}
+
+.services-link:hover {
+color: var(--text-color);
+color: rgb(118, 247, 142);
+
+}
+
+.services-icon {
+    font-size: 1.25rem;
+    color: rgb(13, 156, 39);
+}
+
+/* ANIMATIONS */
+@keyframes fadeSlideUp {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Animation d'apparition progressive des cartes */
+  .services-card {
+    animation: fadeSlideUp 0.8s ease-out forwards;
+    opacity: 0;
+    transform: translateY(40px);
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+  }
+  
+  /* Ajoute un effet de lumière au hover */
+  .services-card:hover {
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+    transform: translateY(-8px);
+  }
+  
+  /* Animation en cascade (décalée) pour chaque carte */
+  .services-card:nth-child(1) {
+    animation-delay: 0.2s;
+  }
+  .services-card:nth-child(2) {
+    animation-delay: 0.4s;
+  }
+  .services-card:nth-child(3) {
+    animation-delay: 0.6s;
+  }
+  /* Ajoute plus si tu as plus de cartes */
+  
+  .services-img {
+    transition: transform 0.4s ease;
+    will-change: transform;
+  }
+  
+  .services-card:hover .services-img {
+    transform: scale(1.1) rotate(1deg);
+  }
+  
