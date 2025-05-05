@@ -368,20 +368,20 @@ export const portfolio = [
     img: projectImg5,
     title: 'IDENTITE VISUELLE',
     description:
-    'De la conception aux impressions numerique des supports de communication de la Societe SOGEPI',
+    'De la conception aux impressions numerique des supports de communication du Cabinet CECA',
     skills: [skillsImg7, skillsImg8],
-    link:'#',
+    link:'https://www.behance.net/gallery/224591503/CECA',
 
   },
 
   {
     id:6,
     img: projectImg6,
-    title: 'Community Manager',
+    title: 'Support Com. Zaman',
     description:
-    'Community Manager chez Zaman Capital',
-    skills: [skillsImg12, skillsImg14],
-    link:'https://www.linkedin.com/company/zaman-capital/',
+    'Support de communication Zaman Capital',
+    skills: [skillsImg7, skillsImg8, skillsImg9],
+    link:'https://www.behance.net/gallery/225067779/Supp-Com-Zaman',
 
   },
 
