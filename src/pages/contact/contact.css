@@ -178,3 +178,26 @@ margin-bottom: 0.5rem;
     opacity: 1;
   }
   
+
+  /* Responsive */
+
+  @media screen and (max-width: 768px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form-group {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-button {
+        justify-self: center;
+        margin-top: 2rem;
+    }
+
+    .contact-message {
+        position: static;
+        margin-top: 1rem;
+        text-align: center;
+    }
+}
