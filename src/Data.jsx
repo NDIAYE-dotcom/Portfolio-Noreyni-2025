@@ -26,6 +26,8 @@ import projectImg5 from  './assets/img5.jpg';
 import projectImg6 from  './assets/img66.jpg';
 import projectImg7 from  './assets/img7-01.jpg';
 import projectImg8 from  './assets/img8-01.jpg';
+import projectImg9 from  './assets/img4-01.png';
+import projectImg10 from  './assets/img5-01.png';
 
 
 import serviceImg1 from  './assets/service1.jpg';
@@ -354,7 +356,7 @@ export const portfolio = [
 
   {
     id:4,
-    img: projectImg4,
+    img: projectImg9,
     title: 'IDENTITE VISUELLE',
     description:
     'De la conception aux impressions numerique des supports de communication de la Societe SOGEPI',
@@ -365,7 +367,7 @@ export const portfolio = [
 
   {
     id:5,
-    img: projectImg5,
+    img: projectImg10,
     title: 'IDENTITE VISUELLE',
     description:
     'De la conception aux impressions numerique des supports de communication du Cabinet CECA',
