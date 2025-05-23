@@ -21,8 +21,8 @@ import skillsImg14 from  './assets/skillsImg14.png';
 import projectImg1 from  './assets/img1-01.jpg';
 import projectImg2 from  './assets/img2.jpg';
 import projectImg3 from  './assets/img3.jpg';
-import projectImg4 from  './assets/img4.jpg';
-import projectImg5 from  './assets/img5.jpg';
+
+
 import projectImg6 from  './assets/img66.jpg';
 import projectImg7 from  './assets/img7-01.jpg';
 import projectImg8 from  './assets/img8-01.jpg';
