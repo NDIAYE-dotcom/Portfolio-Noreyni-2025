@@ -28,6 +28,8 @@ import projectImg7 from  './assets/img7-01.jpg';
 import projectImg8 from  './assets/img8-01.jpg';
 import projectImg9 from  './assets/img4-01.png';
 import projectImg10 from  './assets/img5-01.png';
+import projectImgOndsel from  './assets/Chart ONDSEL-01.png';
+import projectImgCecaPlatform from  './assets/ceca-platform.png';
 
 
 import serviceImg1 from  './assets/service1.jpg';
@@ -323,6 +325,28 @@ export const personalInfo = [
 export const portfolio = [
   {
     id:1,
+    img: projectImgOndsel,
+    title: 'ONDSEL - Création Logo + Charte Graphique',
+    description:
+    'Observatoire National Pour le Développement Socio-Économique et du Leadership',
+    skills: [skillsImg7, skillsImg8, skillsImg9],
+    link:'https://www.behance.net/gallery/231157383/Charte-Graphique-ONDSEL',
+
+  },
+
+  {
+    id:2,
+    img: projectImgCecaPlatform,
+    title: 'CECA Website',
+    description:
+    'Platform de formation en lign du Cabinet Experts Consulting Afrique',
+    skills: [skillsImg3, skillsImg4],
+    link:'https://www.ceca-org.com',
+
+  },
+
+  {
+    id:3,
     img: projectImg1,
     title: 'Charity Website',
     description:
@@ -333,7 +357,7 @@ export const portfolio = [
   },
 
   {
-    id:2,
+    id:4,
     img: projectImg2,
     title: 'SOGEPI Website',
     description:
@@ -344,18 +368,7 @@ export const portfolio = [
   },
 
   {
-    id:3,
-    img: projectImg3,
-    title: 'CECA Website',
-    description:
-    'site web du Cabinet CECA',
-    skills: [skillsImg3, skillsImg4],
-    link:'#',
-
-  },
-
-  {
-    id:4,
+    id:5,
     img: projectImg9,
     title: 'IDENTITE VISUELLE',
     description:
@@ -366,7 +379,7 @@ export const portfolio = [
   },
 
   {
-    id:5,
+    id:6,
     img: projectImg10,
     title: 'IDENTITE VISUELLE',
     description:
@@ -377,7 +390,7 @@ export const portfolio = [
   },
 
   {
-    id:6,
+    id:7,
     img: projectImg6,
     title: 'Support Com. Zaman',
     description:
@@ -388,7 +401,7 @@ export const portfolio = [
   },
 
   {
-    id:7,
+    id:8,
     img: projectImg7,
     title: 'Impression & Breending',
     description:
@@ -399,7 +412,7 @@ export const portfolio = [
   },
 
   {
-    id:8,
+    id:9,
     img: projectImg8,
     title: 'Logo Realisé',
     description:
