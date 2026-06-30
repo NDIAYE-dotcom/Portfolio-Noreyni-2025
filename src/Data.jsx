@@ -92,12 +92,12 @@ export const personalInfo = [
       description: 'Ndiaye',
     },
     {
-    title: 'Age :',
-    description: '32 Years',
+    title: 'Fonction :',
+    description: 'DIGITAL MANAGER',
     },
     {
         title: 'Nationality :',
-        description: 'Senegalais',
+        description: 'SENEGALAIS',
       },
       {
         title: 'Freelance:',
@@ -116,13 +116,13 @@ export const personalInfo = [
         description: 'ousmanendiaye.sn19@gmail.com',
       },
       {
-        title: 'LinkdIn :',
+        title: 'LinkedIn :',
         description: 'Ousmane Ndiaye',
         
       },
       {
         title: 'Langages :',
-        description: 'French, English (Junior).',
+        description: 'French, English (Intermediate).',
       },
   ];
 
